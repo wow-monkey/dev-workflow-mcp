@@ -123,7 +123,7 @@ Claude Desktop（`claude_desktop_config.json`）：
 ## 安装
 
 ```bash
-git clone https://github.com/zhouqi-7/dev-workflow-mcp.git
+git clone https://github.com/wow-monkey/dev-workflow-mcp.git
 cd dev-workflow-mcp
 npm install
 ```
@@ -201,4 +201,4 @@ workflow-mcp/
 
 ## License
 
-[MIT](./LICENSE) © 2026 zhouqi-7
+[MIT](./LICENSE) © 2026 wow-monkey
