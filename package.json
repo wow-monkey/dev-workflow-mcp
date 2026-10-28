@@ -1,0 +1,40 @@
+{
+  "name": "dev-workflow-mcp",
+  "version": "1.0.0",
+  "description": "需求处理流程状态机 MCP server（clarify → awaiting_confirm → implementing → review → done），用工具约束 AI 何时允许修改文件",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "dev-workflow-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "workflow",
+    "state-machine",
+    "ai-agent",
+    "opencode"
+  ],
+  "license": "MIT",
+  "author": "zhouqi-7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouqi-7/dev-workflow-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhouqi-7/dev-workflow-mcp/issues"
+  },
+  "homepage": "https://github.com/zhouqi-7/dev-workflow-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
